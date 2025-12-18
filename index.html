@@ -1,0 +1,183 @@
+<!DOCTYPE html>  
+<html lang="bn">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+  <title>Hasana Market</title>  
+  <link rel="stylesheet" href="style.css" />  
+</head>  
+  
+<body>  
+    
+  <!-- 🔵 TOP HEADER -->  
+  <header class="top-header">  
+    <img src="./assets/logo.png" class="logo" />  
+    <h1>Hasana Market</h1>  
+    <img src="./assets/notification.png" class="notify" />  
+  </header>  
+  
+  <div class="app-container">  
+  
+    <!-- Section 1: Product Operations -->  
+    <section id="section-products" class="section">  
+      <h2>প্রোডাক্ট ম্যানেজমেন্ট</h2>  
+      <div class="grid">  
+        <button class="card">         
+          <img src="https://img.icons8.com/fluency/96/shopping-cart.png"/>
+          <p>প্রোডাক্ট কেনা</p>
+        </button>  
+         
+        <button class="card" id="sellProductBtn">  
+          <img src="https://img.icons8.com/fluency/96/sell.png"/>  
+          <p>প্রোডাক্ট বেচা</p>  
+        </button>  
+  
+        <button class="card">
+          <img src="assets/list.png"/>
+          <p>প্রোডাক্ট লিস্ট</p>
+        </button>  
+        <button class="card">
+          <img src="assets/sold.png"/>
+          <p>বিক্রিত প্রোডাক্ট</p>
+        </button>  
+      </div>  
+    </section>  
+  
+    <!-- Section 2 -->  
+    <section id="section-online" class="section">  
+      <h2>অনলাইন মার্কেট ও রেকর্ড</h2>  
+      <div class="grid">  
+        <button class="card">  
+          <img src=""/>
+          <p>অনলাইন মার্কেট</p>  
+        </button>  
+        <button class="card" id="areaSaleBtn">  
+          <img src="assets/report.png"/>  
+          <p>এরিয়া ভিত্তিক বিক্রি</p>  
+        </button>  
+        <button class="card">
+          <img src="assets/product-wise-sale.png"/>
+          <p>প্রোডাক্ট ভিত্তিক বিক্রি</p>
+        </button>  
+        <button class="card">
+          <img src="assets/khata.png"/>
+          <p>বাকির খাতা</p>
+        </button>  
+        <button class="card">
+          <img src="assets/deposit.png"/>
+          <p>টাকা জমার খাতা</p>
+        </button>  
+      </div>  
+    </section>  
+  
+    <!-- Section 3 -->  
+    <section id="section-lists" class="section">  
+      <h2>তালিকা সেকশন</h2>  
+      <div class="grid">  
+        <button class="card">
+          <img src="assets/customers.png"/>
+          <p>কাস্টমারের তালিকা</p>
+        </button>  
+
+        <!-- 🔗 এই বাটনে আমরা app-user-list.html পেইজ লিংক যুক্ত করেছি -->
+        <a href="pages/app-user-list.html" class="card-link">
+          <button class="card">
+            <img src="assets/users.png"/>
+            <p>অ্যাপ ইউজার তালিকা</p> 
+          </button>
+        </a>
+  
+        <button class="card" id="supplierListBtn">  
+          <img src="assets/supplier.png"/>  
+          <p>সাপ্লাইয়ার তালিকা</p>  
+        </button>  
+        <button class="card">
+          <img src="assets/staff.png"/>
+          <p>কর্মচারী তালিকা</p>
+        </button>  
+      </div>  
+    </section>  
+    <!-- উদাহরণ: Section 3: তালিকা সেকশন থেকে -->
+<section id="section-lists" class="section">  
+  <h2>তালিকা সেকশন</h2>  
+  <div class="grid">  
+
+    <!-- কাস্টমার তালিকা -->
+    <button class="card">
+      <img src="assets/customers.png"/>
+      <p>কাস্টমারের তালিকা</p>
+    </button>  
+
+    <!-- অ্যাপ ইউজার তালিকা -->
+    <a href="pages/app-user-list.html" class="card-link">
+      <button class="card" id="appUserListBtn">
+        <img src="assets/users.png"/>
+        <p>অ্যাপ ইউজার তালিকা</p> 
+      </button>
+    </a>
+
+    <button class="card" id="supplierListBtn">  
+      <img src="assets/supplier.png"/>  
+      <p>সাপ্লাইয়ার তালিকা</p>  
+    </button>  
+
+  </div>  
+</section>
+  
+    <!-- Section 4 -->  
+    <section id="section-credit" class="section">  
+      <h2>ক্রেডিট সিস্টেম</h2>  
+      <div class="grid">  
+        <button class="card">
+          <img src="assets/bank.png"/>
+          <p>এজেন্ট ব্যালেন্স</p>
+        </button>  
+        <button class="card">
+          <img src="assets/transfer.png"/>
+          <p>টাকা লেনদেন</p>
+        </button>  
+      </div>  
+    </section>  
+  
+    <!-- Section 5 -->  
+    <section id="section-admin" class="section">  
+      <h2>এডমিন প্যানেল</h2>  
+      <div class="grid">  
+        <button class="card">  
+          <img src="assets/control.png" />  
+          <p>কন্ট্রোল প্যানেল</p>  
+        </button>  
+        <button class="card">  
+          <img src="assets/roles.png" />  
+          <p>পারমিশন সেটিং</p>  
+        </button>  
+        <button class="card">  
+          <img src="assets/contact.png" />  
+          <p>যোগাযোগ</p>  
+        </button>  
+      </div>
+    </section>
+  </div> <!-- app-container end -->  
+  
+  <!-- 🔵 BOTTOM NAVIGATION -->  
+  <nav class="bottom-nav">  
+    <button class="nav-btn">  
+      <img src="assets/home.png"><span>Home</span>  
+    </button>  
+    <button class="nav-btn">  
+      <img src="assets/product.png"><span>Products</span>  
+    </button>  
+    <button class="nav-btn big-btn">  
+      <img src="assets/plus.png">  
+    </button>  
+    <button class="nav-btn">  
+      <img src="assets/sell.png"><span>Sell</span>  
+    </button>  
+    <button class="nav-btn">  
+      <img src="assets/user.png"><span>Profile</span>  
+    </button>  
+  </nav>  
+  
+  <script src="app.js"></script>  
+</body>  
+</html>
