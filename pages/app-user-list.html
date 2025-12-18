@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>অ্যাপ ইউজার লিস্ট</title>
+  <link rel="stylesheet" href="app-user-list.css">
+</head>
+<body>
+  <div class="header">অ্যাপ ইউজার লিস্ট</div>
+
+  <!-- Supplier/Admin Section -->
+  <div id="supplierSection" class="grid hidden">
+    <div class="card">
+      <img src="../assets/users.png" alt="User">
+      <p>ইউজার ১</p>
+    </div>
+    <div class="card">
+      <img src="../assets/users.png" alt="User">
+      <p>ইউজার ২</p>
+    </div>
+    <div class="card">
+      <img src="../assets/users.png" alt="User">
+      <p>ইউজার ৩</p>
+    </div>
+  </div>
+
+  <!-- Access Denied Section -->
+  <div id="accessDenied" class="hidden">
+    ⚠️ আপনি এডমিন বা সাপ্লায়ার নন, তাই এটি দেখতে পারবেন না।
+  </div>
+
+  <script src="app-user-list.js"></script>
+</body>
+</html>
